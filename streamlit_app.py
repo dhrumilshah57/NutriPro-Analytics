@@ -3,26 +3,24 @@ import streamlit as st
 
 
 def main():
-    st.title("NourishNet")
+    st.title("NutriPro Analytics")
 
     # App Description
     st.write(
         """
-    Welcome to NourishNet, an interactive tool for analyzing and visualizing nutritional data.
+    Welcome to NutriPro Analytics, an advanced tool for analyzing and visualizing the nutritional value of protein sources.
 
-    ### About NourishNet:
-    NourishNet provides various features for exploring nutritional data, including:
+    ### About NutriPro Analytics:
+    NutriPro Analytics offers several features designed to streamline protein analysis, including:
 
-    - Analyzing dietary changes over time.
-    - Clustering countries based on nutritional indicators.
-    - Visualizing malnutrition trends.
-
-    **Get started:** Use the sidebar to navigate through different sections and explore the features of NourishNet.
+    - Automated extraction of protein data from PDFs.
+    - Calculation of amino acid scores based on FAO/WHO reference patterns.
+    - Machine learning predictions for incomplete nutritional data.
 
     #### Developer Information:
-    NourishNet is developed using Streamlit, a powerful library for building interactive web applications with Python.
+    NutriPro Analytics is developed using Streamlit, a powerful framework for building interactive web applications with Python.
 
-    **Developers:** Kishan Modi, Meet Patel, Malhar Raval, Aditya Tohan
+    **Developers:** Jainish Shah, Durva Brahmbhatt, Dhrumil Shah, Devansh Mehta, Dhwani Sheth
     """
     )
 
