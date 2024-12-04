@@ -100,11 +100,7 @@ Ensure you have **Python 3.7 or higher** installed. [Download Python](https://ww
 
 The uploaded `.xlsx` file should contain the following structure in `Sheet1`:
 
-| SAMPLE          | PROTEIN % | HIS | ILE | LEU | LYS | MET | CYS | PHE | TYR | THR | TRP | VAL |
-|-----------------|-----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Sample Name 1   | 15        | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
-| Sample Name 2   | 20        | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
-| ...             | ...       | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+![AAS Analysis Table](https://github.com/dhrumilshah57/NutriPro-Analytics/blob/main/MainImage2.png)
 
 ### Columns:
 
