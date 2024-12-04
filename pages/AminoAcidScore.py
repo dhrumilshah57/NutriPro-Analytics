@@ -71,7 +71,7 @@ if uploaded_file:
             temp = normalized_data[['SAMPLE']].copy()
             temp['Year'] = year
             temp['Age Group'] = age_group
-            temp['AAS'] = limiting_scores
+            temp['AAS'] = limiting_scores.round(2)
             temp['Limiting Amino Acid'] = limiting_amino_acids
             results.append(temp)
 
@@ -100,6 +100,7 @@ if uploaded_file:
         color = amino_acid_colors.get(row['Limiting Amino Acid'], '#FFFFFF')  # Default white
         return [f'background-color: {color}' if col == 'Limiting Amino Acid' else '' for col in row.index]
 
+    item_df_reset['AAS'] = item_df_reset['AAS'].apply(lambda x: f"{x:.2f}")
     styled_table = item_df_reset.style.apply(highlight_limiting_amino_acid, axis=1)
     st.dataframe(styled_table, use_container_width=True)
 
