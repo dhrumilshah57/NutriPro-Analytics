@@ -52,8 +52,7 @@ Ensure you have **Python 3.7 or higher** installed. [Download Python](https://ww
 1. Clone the Repository:
 
    ```bash
-   git clone https://github.com/yourusername/aas-analysis-tool.git
-   cd aas-analysis-tool
+   git clone https://github.com/dhrumilshah57/NutriPro-Analytics
    ```
 
 2. Create a Virtual Environment (Optional but Recommended):
