@@ -14,7 +14,6 @@
 - [Usage](#usage)
 - [Data Format](#data-format)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
